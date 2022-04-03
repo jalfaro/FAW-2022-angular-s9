@@ -1,0 +1,13 @@
+<div id="contenido">
+    <div id="titulo">{{titulo}}</div>
+    <div class="fila">
+        <div class="etiqueta">Operando 1: </div>
+        <input type="number" [(ngModel)]="op1">
+    </div>
+    <div class="fila">
+        <div class="etiqueta">Operando 2: </div>
+        <input type="number" [(ngModel)]="op2">
+    </div>
+    <button (click)="operar()">Calcular</button>
+    {{resultado}}
+</div>

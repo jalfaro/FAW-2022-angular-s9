@@ -1,0 +1,18 @@
+#contenido {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    #titulo {
+        text-align: center;
+        font-size: 18px;
+        color: red
+    }
+    .fila {
+        display: flex;
+        flex-direction: row;
+        .etiqueta {
+            width: 100px;
+            color: blue;
+        }
+    }
+}
